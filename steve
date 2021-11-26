@@ -1,0 +1,1557 @@
+local anagui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local guiname = Instance.new("TextLabel")
+local credit = Instance.new("TextLabel")
+local thanks = Instance.new("TextLabel")
+local swordfarm = Instance.new("TextButton")
+local teleportgui = Instance.new("TextButton")
+local questteleport = Instance.new("TextButton")
+local npcfarm = Instance.new("TextButton")
+local chesttpoff = Instance.new("TextButton")
+local chesttpon = Instance.new("TextButton")
+local anticheatbreaker = Instance.new("TextButton")
+local autoclick = Instance.new("TextButton")
+local autoclickitemname = Instance.new("TextBox")
+local help = Instance.new("TextButton")
+local help1 = Instance.new("ScreenGui")
+local help2 = Instance.new("Frame")
+local swordhelp = Instance.new("TextLabel")
+local swordhelp2 = Instance.new("TextLabel")
+local swordhelp3 = Instance.new("TextLabel")
+local swordhelp4 = Instance.new("TextLabel")
+local swordhelp5 = Instance.new("TextLabel")
+local swordhelp6 = Instance.new("TextLabel")
+local swordhelp7 = Instance.new("TextLabel")
+local swordhelp8 = Instance.new("TextLabel")
+local swordfarmframe = Instance.new("Frame")
+local creditsword = Instance.new("TextLabel")
+local part1on = Instance.new("TextButton")
+local part1off = Instance.new("TextButton")
+local part2 = Instance.new("TextButton")
+local part3 = Instance.new("TextButton")
+local swordname = Instance.new("TextBox")
+local teleportguiframe = Instance.new("Frame")
+local teleporttext = Instance.new("TextLabel")
+local luffytp = Instance.new("TextButton")
+local noobtp = Instance.new("TextButton")
+local buggytp = Instance.new("TextButton")
+local starterisland = Instance.new("TextButton")
+local dfsellertp = Instance.new("TextButton")
+local sanjitp = Instance.new("TextButton")
+local marinetp = Instance.new("TextButton")
+local playername = Instance.new("TextBox")
+local playertp = Instance.new("TextButton")
+local questgiverframe = Instance.new("Frame")
+local questtext = Instance.new("TextLabel")
+local luffyquest = Instance.new("TextButton")
+local banditquest = Instance.new("TextButton")
+local gunnoobquest = Instance.new("TextButton")
+local marinequest = Instance.new("TextButton")
+local swordnoobquest = Instance.new("TextButton")
+local noobquest = Instance.new("TextButton")
+local buggyquest = Instance.new("TextButton")
+local npcfarmframe = Instance.new("Frame")
+local npcfarmguitext = Instance.new("TextLabel")
+local farmluffy = Instance.new("TextButton")
+local farmmarine = Instance.new("TextButton")
+local farmnoob = Instance.new("TextButton")
+local farm3pack = Instance.new("TextButton")
+local farmmarineluffy = Instance.new("TextButton")
+local farmbuggy = Instance.new("TextButton")
+--Properties:
+anagui.Name = "anagui"
+anagui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = anagui
+Frame.Active = true
+Frame.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+Frame.BackgroundTransparency = 0.25
+Frame.Position = UDim2.new(0.0424128175, 0, 0.442231089, 0)
+Frame.Selectable = true
+Frame.Size = UDim2.new(0, 240, 0, 250)
+Frame.Draggable = true
+
+guiname.Name = "guiname"
+guiname.Parent = Frame
+guiname.BackgroundColor3 = Color3.new(0.392157, 0.435294, 0.32549)
+guiname.BackgroundTransparency = 0.20000000298023
+guiname.Size = UDim2.new(0, 240, 0, 31)
+guiname.Font = Enum.Font.SourceSans
+guiname.Text = "Steve's Shit"
+guiname.TextColor3 = Color3.new(0.611765, 0.611765, 0.611765)
+guiname.TextScaled = true
+guiname.TextSize = 14
+guiname.TextWrapped = true
+guiname.Draggable = true
+
+credit.Name = "credit"
+credit.Parent = guiname
+credit.BackgroundColor3 = Color3.new(0.392157, 0.435294, 0.32549)
+credit.BackgroundTransparency = 0.20000000298023
+credit.Position = UDim2.new(0, 0, 7.06451607, 0)
+credit.Size = UDim2.new(0, 55, 0, 31)
+credit.Font = Enum.Font.SourceSans
+credit.Text = "Cazcez#0001"
+credit.TextColor3 = Color3.new(0.611765, 0.611765, 0.611765)
+credit.TextScaled = true
+credit.TextSize = 14
+credit.TextWrapped = true
+
+thanks.Name = "thanks"
+thanks.Parent = guiname
+thanks.BackgroundColor3 = Color3.new(0.392157, 0.435294, 0.32549)
+thanks.BackgroundTransparency = 0.20000000298023
+thanks.Position = UDim2.new(0.770833313, 0, 7.06451607, 0)
+thanks.Size = UDim2.new(0, 55, 0, 31)
+thanks.Font = Enum.Font.SourceSans
+thanks.Text = "Thanks Amnesia"
+thanks.TextColor3 = Color3.new(0.611765, 0.611765, 0.611765)
+thanks.TextScaled = true
+thanks.TextSize = 14
+thanks.TextWrapped = true
+
+swordfarm.Name = "swordfarm"
+swordfarm.Parent = Frame
+swordfarm.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+swordfarm.BackgroundTransparency = 0.18000000715256
+swordfarm.Position = UDim2.new(0, 0, 0.164000005, 0)
+swordfarm.Size = UDim2.new(0, 79, 0, 50)
+swordfarm.Font = Enum.Font.SourceSans
+swordfarm.Text = "Auto Sword Farm GUI"
+swordfarm.TextColor3 = Color3.new(0.619608, 0.698039, 0.819608)
+swordfarm.TextScaled = true
+swordfarm.TextSize = 14
+swordfarm.TextWrapped = true
+
+teleportgui.Name = "teleportgui"
+teleportgui.Parent = Frame
+teleportgui.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+teleportgui.BackgroundTransparency = 0.18000000715256
+teleportgui.Position = UDim2.new(0, 0, 0.400000036, 0)
+teleportgui.Size = UDim2.new(0, 79, 0, 50)
+teleportgui.Font = Enum.Font.SourceSans
+teleportgui.Text = "Teleport GUI"
+teleportgui.TextColor3 = Color3.new(0.619608, 0.698039, 0.819608)
+teleportgui.TextScaled = true
+teleportgui.TextSize = 14
+teleportgui.TextWrapped = true
+
+questteleport.Name = "questteleport"
+questteleport.Parent = Frame
+questteleport.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+questteleport.BackgroundTransparency = 0.18000000715256
+questteleport.Position = UDim2.new(0.670833349, 0, 0.400000036, 0)
+questteleport.Size = UDim2.new(0, 79, 0, 50)
+questteleport.Font = Enum.Font.SourceSans
+questteleport.Text = "Quest Giver head Teleporter"
+questteleport.TextColor3 = Color3.new(0.619608, 0.698039, 0.819608)
+questteleport.TextScaled = true
+questteleport.TextSize = 14
+questteleport.TextWrapped = true
+
+npcfarm.Name = "npcfarm"
+npcfarm.Parent = Frame
+npcfarm.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+npcfarm.BackgroundTransparency = 0.18000000715256
+npcfarm.Position = UDim2.new(0.670833349, 0, 0.164000005, 0)
+npcfarm.Size = UDim2.new(0, 79, 0, 50)
+npcfarm.Font = Enum.Font.SourceSans
+npcfarm.Text = "NPC Farm GUI"
+npcfarm.TextColor3 = Color3.new(0.619608, 0.698039, 0.819608)
+npcfarm.TextScaled = true
+npcfarm.TextSize = 14
+npcfarm.TextWrapped = true
+
+chesttpoff.Name = "chesttpoff"
+chesttpoff.Parent = Frame
+chesttpoff.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+chesttpoff.BackgroundTransparency = 0.18000000715256
+chesttpoff.Position = UDim2.new(0.670833349, 0, 0.643999994, 0)
+chesttpoff.Size = UDim2.new(0, 79, 0, 50)
+chesttpoff.Font = Enum.Font.SourceSans
+chesttpoff.Text = "Chest TP OFF"
+chesttpoff.TextColor3 = Color3.new(0.619608, 0.698039, 0.819608)
+chesttpoff.TextScaled = true
+chesttpoff.TextSize = 14
+chesttpoff.TextWrapped = true
+
+chesttpon.Name = "chesttpon"
+chesttpon.Parent = Frame
+chesttpon.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+chesttpon.BackgroundTransparency = 0.18000000715256
+chesttpon.Position = UDim2.new(0, 0, 0.643999994, 0)
+chesttpon.Size = UDim2.new(0, 79, 0, 50)
+chesttpon.Font = Enum.Font.SourceSans
+chesttpon.Text = "Chest TP ON"
+chesttpon.TextColor3 = Color3.new(0.619608, 0.698039, 0.819608)
+chesttpon.TextScaled = true
+chesttpon.TextSize = 14
+chesttpon.TextWrapped = true
+
+anticheatbreaker.Name = "anticheatbreaker"
+anticheatbreaker.Parent = Frame
+anticheatbreaker.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+anticheatbreaker.BackgroundTransparency = 0.18000000715256
+anticheatbreaker.Position = UDim2.new(0.349999994, 0, 0.164000005, 0)
+anticheatbreaker.Size = UDim2.new(0, 71, 0, 50)
+anticheatbreaker.Font = Enum.Font.SourceSans
+anticheatbreaker.Text = "Anti-Cheat Breaker"
+anticheatbreaker.TextColor3 = Color3.new(0.619608, 0.698039, 0.819608)
+anticheatbreaker.TextScaled = true
+anticheatbreaker.TextSize = 14
+anticheatbreaker.TextWrapped = true
+
+autoclick.Name = "autoclick"
+autoclick.Parent = Frame
+autoclick.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+autoclick.BackgroundTransparency = 0.18000000715256
+autoclick.Position = UDim2.new(0.349999994, 0, 0.400000006, 0)
+autoclick.Size = UDim2.new(0, 71, 0, 50)
+autoclick.Font = Enum.Font.SourceSans
+autoclick.Text = "Autoclick ON/OFF(Write item name on box)"
+autoclick.TextColor3 = Color3.new(0.619608, 0.698039, 0.819608)
+autoclick.TextScaled = true
+autoclick.TextSize = 14
+autoclick.TextWrapped = true
+
+autoclickitemname.Name = "autoclickitemname"
+autoclickitemname.Parent = Frame
+autoclickitemname.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+autoclickitemname.Position = UDim2.new(0.349999994, 0, 0.643999994, 0)
+autoclickitemname.Size = UDim2.new(0, 71, 0, 50)
+autoclickitemname.Font = Enum.Font.SourceSans
+autoclickitemname.Text = "Write autoclick item name on this box"
+autoclickitemname.TextColor3 = Color3.new(0, 0, 0)
+autoclickitemname.TextScaled = true
+autoclickitemname.TextSize = 14
+autoclickitemname.TextWrapped = true
+
+help.Name = "help"
+help.Parent = Frame
+help.BackgroundColor3 = Color3.new(0.223529, 0.247059, 0.184314)
+help.BackgroundTransparency = 0.18000000715256
+help.Position = UDim2.new(0.329166681, 0, 0.875999987, 0)
+help.Size = UDim2.new(0, 82, 0, 31)
+help.Font = Enum.Font.SourceSans
+help.Text = "Click for help!"
+help.TextColor3 = Color3.new(0.819608, 0.639216, 0.709804)
+help.TextScaled = true
+help.TextSize = 14
+help.TextWrapped = true
+
+help1.Name = "help1"
+help1.Parent = anagui
+
+help2.Name = "help2"
+help2.Parent = help1
+help2.Active = true
+help2.BackgroundColor3 = Color3.new(0.560784, 0.560784, 0.560784)
+help2.BackgroundTransparency = 0.34999999403954
+help2.Position = UDim2.new(0.338360041, 0, 0.201195225, 0)
+help2.Selectable = true
+help2.Size = UDim2.new(0, 179, 0, 221)
+help2.Draggable = true
+help2.Visible = false
+
+swordhelp.Name = "swordhelp"
+swordhelp.Parent = help2
+swordhelp.Active = true
+swordhelp.BackgroundColor3 = Color3.new(0.294118, 0.294118, 0.294118)
+swordhelp.Size = UDim2.new(0, 179, 0, 28)
+swordhelp.Font = Enum.Font.SourceSans
+swordhelp.Text = "Auto Sword Help"
+swordhelp.TextColor3 = Color3.new(0.141176, 0.34902, 0.792157)
+swordhelp.TextScaled = true
+swordhelp.TextSize = 14
+swordhelp.TextWrapped = true
+
+swordhelp2.Name = "swordhelp2"
+swordhelp2.Parent = swordhelp
+swordhelp2.Active = true
+swordhelp2.BackgroundColor3 = Color3.new(0.294118, 0.294118, 0.294118)
+swordhelp2.Position = UDim2.new(0, 0, 0.995798349, 0)
+swordhelp2.Size = UDim2.new(0, 179, 0, 28)
+swordhelp2.Font = Enum.Font.SourceSans
+swordhelp2.Text = "1- Buy a sword (not a 2ss or 3ss)"
+swordhelp2.TextColor3 = Color3.new(0.443137, 0.792157, 0.607843)
+swordhelp2.TextScaled = true
+swordhelp2.TextSize = 14
+swordhelp2.TextWrapped = true
+
+swordhelp3.Name = "swordhelp3"
+swordhelp3.Parent = swordhelp2
+swordhelp3.Active = true
+swordhelp3.BackgroundColor3 = Color3.new(0.294118, 0.294118, 0.294118)
+swordhelp3.Position = UDim2.new(0, 0, 0.995798349, 0)
+swordhelp3.Size = UDim2.new(0, 179, 0, 28)
+swordhelp3.Font = Enum.Font.SourceSans
+swordhelp3.Text = "2- Save your sword to save slot1 on left buttons"
+swordhelp3.TextColor3 = Color3.new(0.443137, 0.792157, 0.607843)
+swordhelp3.TextScaled = true
+swordhelp3.TextSize = 14
+swordhelp3.TextWrapped = true
+
+swordhelp4.Name = "swordhelp4"
+swordhelp4.Parent = swordhelp3
+swordhelp4.Active = true
+swordhelp4.BackgroundColor3 = Color3.new(0.294118, 0.294118, 0.294118)
+swordhelp4.Position = UDim2.new(0, 0, 0.995798349, 0)
+swordhelp4.Size = UDim2.new(0, 179, 0, 28)
+swordhelp4.Font = Enum.Font.SourceSans
+swordhelp4.Text = "3- Write your sword name to swordname box"
+swordhelp4.TextColor3 = Color3.new(0.443137, 0.792157, 0.607843)
+swordhelp4.TextScaled = true
+swordhelp4.TextSize = 14
+swordhelp4.TextWrapped = true
+
+swordhelp5.Name = "swordhelp5"
+swordhelp5.Parent = swordhelp4
+swordhelp5.Active = true
+swordhelp5.BackgroundColor3 = Color3.new(0.294118, 0.294118, 0.294118)
+swordhelp5.Position = UDim2.new(0, 0, 0.995798349, 0)
+swordhelp5.Size = UDim2.new(0, 179, 0, 28)
+swordhelp5.Font = Enum.Font.SourceSans
+swordhelp5.Text = "4- Click part 1 start and drop a lot of sword"
+swordhelp5.TextColor3 = Color3.new(0.443137, 0.792157, 0.607843)
+swordhelp5.TextScaled = true
+swordhelp5.TextSize = 14
+swordhelp5.TextWrapped = true
+
+swordhelp6.Name = "swordhelp6"
+swordhelp6.Parent = swordhelp5
+swordhelp6.Active = true
+swordhelp6.BackgroundColor3 = Color3.new(0.294118, 0.294118, 0.294118)
+swordhelp6.Position = UDim2.new(0, 0, 0.995798349, 0)
+swordhelp6.Size = UDim2.new(0, 179, 0, 28)
+swordhelp6.Font = Enum.Font.SourceSans
+swordhelp6.Text = "5- Click part 1 stop and take all swords"
+swordhelp6.TextColor3 = Color3.new(0.443137, 0.792157, 0.607843)
+swordhelp6.TextScaled = true
+swordhelp6.TextSize = 14
+swordhelp6.TextWrapped = true
+
+swordhelp7.Name = "swordhelp7"
+swordhelp7.Parent = swordhelp6
+swordhelp7.Active = true
+swordhelp7.BackgroundColor3 = Color3.new(0.294118, 0.294118, 0.294118)
+swordhelp7.Position = UDim2.new(0, 0, 0.995798349, 0)
+swordhelp7.Size = UDim2.new(0, 179, 0, 28)
+swordhelp7.Font = Enum.Font.SourceSans
+swordhelp7.Text = "6- Click part 2 and press \"p\" on your keyboard"
+swordhelp7.TextColor3 = Color3.new(0.443137, 0.792157, 0.607843)
+swordhelp7.TextScaled = true
+swordhelp7.TextSize = 14
+swordhelp7.TextWrapped = true
+
+swordhelp8.Name = "swordhelp8"
+swordhelp8.Parent = swordhelp7
+swordhelp8.Active = true
+swordhelp8.BackgroundColor3 = Color3.new(0.294118, 0.294118, 0.294118)
+swordhelp8.Position = UDim2.new(0, 0, 0.995798349, 0)
+swordhelp8.Size = UDim2.new(0, 179, 0, 28)
+swordhelp8.Font = Enum.Font.SourceSans
+swordhelp8.Text = "7- Click part 3 (Autoclick)"
+swordhelp8.TextColor3 = Color3.new(0.443137, 0.792157, 0.607843)
+swordhelp8.TextScaled = true
+swordhelp8.TextSize = 14
+swordhelp8.TextWrapped = true
+
+swordfarmframe.Name = "swordfarmframe"
+swordfarmframe.Parent = anagui
+swordfarmframe.Active = true
+swordfarmframe.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+swordfarmframe.BackgroundTransparency = 0.25
+swordfarmframe.Position = UDim2.new(0.782280922, 0, 0.302788794, 0)
+swordfarmframe.Selectable = true
+swordfarmframe.Size = UDim2.new(0, 208, 0, 220)
+swordfarmframe.Draggable = true
+swordfarmframe.Visible = false
+
+
+creditsword.Name = "creditsword"
+creditsword.Parent = swordfarmframe
+creditsword.BackgroundColor3 = Color3.new(0, 0, 0)
+creditsword.BackgroundTransparency = 0.34999999403954
+creditsword.Size = UDim2.new(0, 208, 0, 29)
+creditsword.Font = Enum.Font.SourceSans
+creditsword.Text = "Credit Cazcez#7091"
+creditsword.TextColor3 = Color3.new(0.380392, 0.356863, 0.329412)
+creditsword.TextScaled = true
+creditsword.TextSize = 14
+creditsword.TextWrapped = true
+
+part1on.Name = "part1on"
+part1on.Parent = swordfarmframe
+part1on.BackgroundColor3 = Color3.new(0, 0, 0)
+part1on.BackgroundTransparency = 0.5
+part1on.Position = UDim2.new(0, 0, 0.413636446, 0)
+part1on.Size = UDim2.new(0, 85, 0, 38)
+part1on.Font = Enum.Font.SourceSans
+part1on.Text = "Part 1 Start"
+part1on.TextColor3 = Color3.new(0.678431, 0.678431, 0.678431)
+part1on.TextSize = 14
+part1on.TextWrapped = true
+
+part1off.Name = "part1off"
+part1off.Parent = swordfarmframe
+part1off.BackgroundColor3 = Color3.new(0, 0, 0)
+part1off.BackgroundTransparency = 0.5
+part1off.Position = UDim2.new(0.591346145, 0, 0.413636446, 0)
+part1off.Size = UDim2.new(0, 85, 0, 38)
+part1off.Font = Enum.Font.SourceSans
+part1off.Text = "Part 1 Stop"
+part1off.TextColor3 = Color3.new(0.678431, 0.678431, 0.678431)
+part1off.TextSize = 14
+part1off.TextWrapped = true
+
+part2.Name = "part2"
+part2.Parent = swordfarmframe
+part2.BackgroundColor3 = Color3.new(0, 0, 0)
+part2.BackgroundTransparency = 0.5
+part2.Position = UDim2.new(0, 0, 0.681818247, 0)
+part2.Size = UDim2.new(0, 85, 0, 38)
+part2.Font = Enum.Font.SourceSans
+part2.Text = "Part 2 (After press \"p\")"
+part2.TextColor3 = Color3.new(0.678431, 0.678431, 0.678431)
+part2.TextSize = 14
+part2.TextWrapped = true
+
+part3.Name = "part3"
+part3.Parent = swordfarmframe
+part3.BackgroundColor3 = Color3.new(0, 0, 0)
+part3.BackgroundTransparency = 0.5
+part3.Position = UDim2.new(0.591346145, 0, 0.681818247, 0)
+part3.Size = UDim2.new(0, 85, 0, 38)
+part3.Font = Enum.Font.SourceSans
+part3.Text = "Part3 ON/OFF(Autoclick)"
+part3.TextColor3 = Color3.new(0.678431, 0.678431, 0.678431)
+part3.TextSize = 14
+part3.TextWrapped = true
+
+swordname.Name = "swordname"
+swordname.Parent = swordfarmframe
+swordname.BackgroundColor3 = Color3.new(0.0431373, 0.0862745, 0.105882)
+swordname.BackgroundTransparency = 0.20000000298023
+swordname.Position = UDim2.new(0.163461536, 0, 0.200000003, 0)
+swordname.Size = UDim2.new(0, 139, 0, 37)
+swordname.Font = Enum.Font.SourceSans
+swordname.Text = "Your Sword name here"
+swordname.TextColor3 = Color3.new(0.862745, 0.858824, 0.858824)
+swordname.TextScaled = true
+swordname.TextSize = 14
+swordname.TextWrapped = true
+
+teleportguiframe.Name = "teleportguiframe"
+teleportguiframe.Parent = anagui
+teleportguiframe.Active = true
+teleportguiframe.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+teleportguiframe.BackgroundTransparency = 0.20000000298023
+teleportguiframe.Position = UDim2.new(0.562676728, 0, 0.66932267, 0)
+teleportguiframe.Selectable = true
+teleportguiframe.Size = UDim2.new(0, 195, 0, 143)
+teleportguiframe.Draggable = true
+teleportguiframe.Visible = false
+
+teleporttext.Name = "teleporttext"
+teleporttext.Parent = teleportguiframe
+teleporttext.BackgroundColor3 = Color3.new(0, 0, 0)
+teleporttext.Size = UDim2.new(0, 195, 0, 32)
+teleporttext.Font = Enum.Font.SourceSans
+teleporttext.Text = "Steve's Shit Teleport GUI"
+teleporttext.TextColor3 = Color3.new(0.321569, 0.345098, 0.286275)
+teleporttext.TextScaled = true
+teleporttext.TextSize = 14
+teleporttext.TextWrapped = true
+
+luffytp.Name = "luffytp"
+luffytp.Parent = teleportguiframe
+luffytp.BackgroundColor3 = Color3.new(0.0431373, 0.0313726, 0.0313726)
+luffytp.BackgroundTransparency = 0.15000000596046
+luffytp.Position = UDim2.new(0, 0, 0.300699294, 0)
+luffytp.Size = UDim2.new(0, 46, 0, 28)
+luffytp.Font = Enum.Font.SourceSans
+luffytp.Text = "Luffy Island"
+luffytp.TextColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+luffytp.TextScaled = true
+luffytp.TextSize = 14
+luffytp.TextWrapped = true
+
+noobtp.Name = "noobtp"
+noobtp.Parent = teleportguiframe
+noobtp.BackgroundColor3 = Color3.new(0.0431373, 0.0313726, 0.0313726)
+noobtp.BackgroundTransparency = 0.15000000596046
+noobtp.Position = UDim2.new(0.2871795, 0, 0.300699294, 0)
+noobtp.Size = UDim2.new(0, 36, 0, 28)
+noobtp.Font = Enum.Font.SourceSans
+noobtp.Text = "Noob Island"
+noobtp.TextColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+noobtp.TextScaled = true
+noobtp.TextSize = 14
+noobtp.TextWrapped = true
+
+buggytp.Name = "buggytp"
+buggytp.Parent = teleportguiframe
+buggytp.BackgroundColor3 = Color3.new(0.0431373, 0.0313726, 0.0313726)
+buggytp.BackgroundTransparency = 0.15000000596046
+buggytp.Position = UDim2.new(0.528205156, 0, 0.300699294, 0)
+buggytp.Size = UDim2.new(0, 36, 0, 28)
+buggytp.Font = Enum.Font.SourceSans
+buggytp.Text = "Buggy Island"
+buggytp.TextColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+buggytp.TextScaled = true
+buggytp.TextSize = 14
+buggytp.TextWrapped = true
+
+starterisland.Name = "starterisland"
+starterisland.Parent = teleportguiframe
+starterisland.BackgroundColor3 = Color3.new(0.0431373, 0.0313726, 0.0313726)
+starterisland.BackgroundTransparency = 0.15000000596046
+starterisland.Position = UDim2.new(0.764102578, 0, 0.300699294, 0)
+starterisland.Size = UDim2.new(0, 46, 0, 28)
+starterisland.Font = Enum.Font.SourceSans
+starterisland.Text = "Starter island"
+starterisland.TextColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+starterisland.TextScaled = true
+starterisland.TextSize = 14
+starterisland.TextWrapped = true
+
+dfsellertp.Name = "dfsellertp"
+dfsellertp.Parent = teleportguiframe
+dfsellertp.BackgroundColor3 = Color3.new(0.0431373, 0.0313726, 0.0313726)
+dfsellertp.BackgroundTransparency = 0.15000000596046
+dfsellertp.Position = UDim2.new(0.805128217, 0, 0.755244732, 0)
+dfsellertp.Size = UDim2.new(0, 36, 0, 28)
+dfsellertp.Font = Enum.Font.SourceSans
+dfsellertp.Text = "DF Seller"
+dfsellertp.TextColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+dfsellertp.TextScaled = true
+dfsellertp.TextSize = 14
+dfsellertp.TextWrapped = true
+
+sanjitp.Name = "sanjitp"
+sanjitp.Parent = teleportguiframe
+sanjitp.BackgroundColor3 = Color3.new(0.0431373, 0.0313726, 0.0313726)
+sanjitp.BackgroundTransparency = 0.15000000596046
+sanjitp.Position = UDim2.new(0.574359, 0, 0.755244732, 0)
+sanjitp.Size = UDim2.new(0, 36, 0, 28)
+sanjitp.Font = Enum.Font.SourceSans
+sanjitp.Text = "Sanji Island"
+sanjitp.TextColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+sanjitp.TextScaled = true
+sanjitp.TextSize = 14
+sanjitp.TextWrapped = true
+
+marinetp.Name = "marinetp"
+marinetp.Parent = teleportguiframe
+marinetp.BackgroundColor3 = Color3.new(0.0431373, 0.0313726, 0.0313726)
+marinetp.BackgroundTransparency = 0.15000000596046
+marinetp.Position = UDim2.new(0.753846169, 0, 0.538461566, 0)
+marinetp.Size = UDim2.new(0, 46, 0, 28)
+marinetp.Font = Enum.Font.SourceSans
+marinetp.Text = "Marine Island"
+marinetp.TextColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+marinetp.TextScaled = true
+marinetp.TextSize = 14
+marinetp.TextWrapped = true
+
+playername.Name = "playername"
+playername.Parent = teleportguiframe
+playername.BackgroundColor3 = Color3.new(0.282353, 0.282353, 0.282353)
+playername.Position = UDim2.new(-0.00384615385, 0, 0.552447557, 0)
+playername.Size = UDim2.new(0, 104, 0, 38)
+playername.Font = Enum.Font.SourceSans
+playername.Text = "Player or NPC Name"
+playername.TextColor3 = Color3.new(0, 0, 0)
+playername.TextScaled = true
+playername.TextSize = 14
+playername.TextWrapped = true
+
+playertp.Name = "playertp"
+playertp.Parent = teleportguiframe
+playertp.BackgroundColor3 = Color3.new(0, 0, 0)
+playertp.Position = UDim2.new(-0.00512820482, 0, 0.860139847, 0)
+playertp.Size = UDim2.new(0, 101, 0, 20)
+playertp.Font = Enum.Font.SourceSans
+playertp.Text = "Teleport a Player or NPC"
+playertp.TextColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+playertp.TextScaled = true
+playertp.TextSize = 14
+playertp.TextWrapped = true
+
+questgiverframe.Name = "questgiverframe"
+questgiverframe.Parent = anagui
+questgiverframe.Active = true
+questgiverframe.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+questgiverframe.BackgroundTransparency = 0.20000000298023
+questgiverframe.Position = UDim2.new(0.5617342, 0, 0.330677271, 0)
+questgiverframe.Selectable = true
+questgiverframe.Size = UDim2.new(0, 195, 0, 143)
+questgiverframe.Draggable = true
+questgiverframe.Visible = false
+
+
+questtext.Name = "questtext"
+questtext.Parent = questgiverframe
+questtext.BackgroundColor3 = Color3.new(0, 0, 0)
+questtext.Size = UDim2.new(0, 195, 0, 32)
+questtext.Font = Enum.Font.SourceSans
+questtext.Text = "Steve's Shit Quest GUI"
+questtext.TextColor3 = Color3.new(0.321569, 0.345098, 0.286275)
+questtext.TextScaled = true
+questtext.TextSize = 14
+questtext.TextWrapped = true
+
+luffyquest.Name = "luffyquest"
+luffyquest.Parent = questgiverframe
+luffyquest.BackgroundColor3 = Color3.new(0.0431373, 0.0313726, 0.0313726)
+luffyquest.BackgroundTransparency = 0.15000000596046
+luffyquest.Position = UDim2.new(0, 0, 0.300699294, 0)
+luffyquest.Size = UDim2.new(0, 46, 0, 28)
+luffyquest.Font = Enum.Font.SourceSans
+luffyquest.Text = "Luffy Quest"
+luffyquest.TextColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+luffyquest.TextScaled = true
+luffyquest.TextSize = 14
+luffyquest.TextWrapped = true
+
+banditquest.Name = "banditquest"
+banditquest.Parent = questgiverframe
+banditquest.BackgroundColor3 = Color3.new(0.0431373, 0.0313726, 0.0313726)
+banditquest.BackgroundTransparency = 0.15000000596046
+banditquest.Position = UDim2.new(0.764102578, 0, 0.300699294, 0)
+banditquest.Size = UDim2.new(0, 46, 0, 28)
+banditquest.Font = Enum.Font.SourceSans
+banditquest.Text = "Thief Quest"
+banditquest.TextColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+banditquest.TextScaled = true
+banditquest.TextSize = 14
+banditquest.TextWrapped = true
+
+gunnoobquest.Name = "gunnoobquest"
+gunnoobquest.Parent = questgiverframe
+gunnoobquest.BackgroundColor3 = Color3.new(0.0431373, 0.0313726, 0.0313726)
+gunnoobquest.BackgroundTransparency = 0.15000000596046
+gunnoobquest.Position = UDim2.new(0.00512820296, 0, 0.678321779, 0)
+gunnoobquest.Size = UDim2.new(0, 55, 0, 39)
+gunnoobquest.Font = Enum.Font.SourceSans
+gunnoobquest.Text = "Gun Noob Quest"
+gunnoobquest.TextColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+gunnoobquest.TextScaled = true
+gunnoobquest.TextSize = 14
+gunnoobquest.TextWrapped = true
+
+marinequest.Name = "marinequest"
+marinequest.Parent = questgiverframe
+marinequest.BackgroundColor3 = Color3.new(0.0431373, 0.0313726, 0.0313726)
+marinequest.BackgroundTransparency = 0.15000000596046
+marinequest.Position = UDim2.new(0.235897422, 0, 0.300699294, 0)
+marinequest.Size = UDim2.new(0, 46, 0, 28)
+marinequest.Font = Enum.Font.SourceSans
+marinequest.Text = "Marine Quest"
+marinequest.TextColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+marinequest.TextScaled = true
+marinequest.TextSize = 14
+marinequest.TextWrapped = true
+
+swordnoobquest.Name = "swordnoobquest"
+swordnoobquest.Parent = questgiverframe
+swordnoobquest.BackgroundColor3 = Color3.new(0.0431373, 0.0313726, 0.0313726)
+swordnoobquest.BackgroundTransparency = 0.15000000596046
+swordnoobquest.Position = UDim2.new(0.358974367, 0, 0.678321779, 0)
+swordnoobquest.Size = UDim2.new(0, 55, 0, 39)
+swordnoobquest.Font = Enum.Font.SourceSans
+swordnoobquest.Text = "Sword Noob Quest"
+swordnoobquest.TextColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+swordnoobquest.TextScaled = true
+swordnoobquest.TextSize = 14
+swordnoobquest.TextWrapped = true
+
+noobquest.Name = "noobquest"
+noobquest.Parent = questgiverframe
+noobquest.BackgroundColor3 = Color3.new(0.0431373, 0.0313726, 0.0313726)
+noobquest.BackgroundTransparency = 0.15000000596046
+noobquest.Position = UDim2.new(0.71282053, 0, 0.678321779, 0)
+noobquest.Size = UDim2.new(0, 55, 0, 39)
+noobquest.Font = Enum.Font.SourceSans
+noobquest.Text = " Noob Quest"
+noobquest.TextColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+noobquest.TextScaled = true
+noobquest.TextSize = 14
+noobquest.TextWrapped = true
+
+buggyquest.Name = "buggyquest"
+buggyquest.Parent = questgiverframe
+buggyquest.BackgroundColor3 = Color3.new(0.0431373, 0.0313726, 0.0313726)
+buggyquest.BackgroundTransparency = 0.15000000596046
+buggyquest.Position = UDim2.new(0.528205156, 0, 0.300699294, 0)
+buggyquest.Size = UDim2.new(0, 46, 0, 28)
+buggyquest.Font = Enum.Font.SourceSans
+buggyquest.Text = "Buggy Quest"
+buggyquest.TextColor3 = Color3.new(0.552941, 0.552941, 0.552941)
+buggyquest.TextScaled = true
+buggyquest.TextSize = 14
+buggyquest.TextWrapped = true
+
+
+npcfarmframe.Name = "npcfarmframe"
+npcfarmframe.Parent = anagui
+npcfarmframe.Active = true
+npcfarmframe.BackgroundColor3 = Color3.new(0, 0, 0)
+npcfarmframe.BackgroundTransparency = 0.25
+npcfarmframe.Position = UDim2.new(0.313854843, 0, 0.677290857, 0)
+npcfarmframe.Selectable = true
+npcfarmframe.Size = UDim2.new(0, 229, 0, 136)
+npcfarmframe.Visible = false
+npcfarmframe.Draggable = true
+
+npcfarmguitext.Name = "npcfarmguitext"
+npcfarmguitext.Parent = npcfarmframe
+npcfarmguitext.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+npcfarmguitext.Selectable = true
+npcfarmguitext.Size = UDim2.new(0, 229, 0, 32)
+npcfarmguitext.Font = Enum.Font.SourceSans
+npcfarmguitext.Text = "Steve's Shit NPC Farm GUI"
+npcfarmguitext.TextColor3 = Color3.new(0.568627, 0.568627, 0.568627)
+npcfarmguitext.TextScaled = true
+npcfarmguitext.TextSize = 14
+npcfarmguitext.TextWrapped = true
+
+farmluffy.Name = "farmluffy"
+farmluffy.Parent = npcfarmframe
+farmluffy.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+farmluffy.BackgroundTransparency = 0.5
+farmluffy.Position = UDim2.new(0, 0, 0.360294133, 0)
+farmluffy.Size = UDim2.new(0, 71, 0, 37)
+farmluffy.Font = Enum.Font.SourceSans
+farmluffy.Text = "Luffy"
+farmluffy.TextColor3 = Color3.new(0.423529, 0.423529, 0.423529)
+farmluffy.TextScaled = true
+farmluffy.TextSize = 14
+farmluffy.TextWrapped = true
+
+farmmarine.Name = "farmmarine"
+farmmarine.Parent = npcfarmframe
+farmmarine.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+farmmarine.BackgroundTransparency = 0.5
+farmmarine.Position = UDim2.new(0.344978184, 0, 0.360294133, 0)
+farmmarine.Size = UDim2.new(0, 71, 0, 37)
+farmmarine.Font = Enum.Font.SourceSans
+farmmarine.Text = "Marine"
+farmmarine.TextColor3 = Color3.new(0.423529, 0.423529, 0.423529)
+farmmarine.TextScaled = true
+farmmarine.TextSize = 14
+farmmarine.TextWrapped = true
+
+farmnoob.Name = "farmnoob"
+farmnoob.Parent = npcfarmframe
+farmnoob.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+farmnoob.BackgroundTransparency = 0.5
+farmnoob.Position = UDim2.new(0.681222677, 0, 0.360294133, 0)
+farmnoob.Size = UDim2.new(0, 71, 0, 37)
+farmnoob.Font = Enum.Font.SourceSans
+farmnoob.Text = "Noob"
+farmnoob.TextColor3 = Color3.new(0.423529, 0.423529, 0.423529)
+farmnoob.TextScaled = true
+farmnoob.TextSize = 14
+farmnoob.TextWrapped = true
+
+farm3pack.Name = "farm3pack"
+farm3pack.Parent = npcfarmframe
+farm3pack.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+farm3pack.BackgroundTransparency = 0.5
+farm3pack.Position = UDim2.new(0, 0, 0.698529422, 0)
+farm3pack.Size = UDim2.new(0, 71, 0, 37)
+farm3pack.Font = Enum.Font.SourceSans
+farm3pack.Text = "Luffy, Marine, Noob, Buso"
+farm3pack.TextColor3 = Color3.new(0.423529, 0.423529, 0.423529)
+farm3pack.TextScaled = true
+farm3pack.TextSize = 14
+farm3pack.TextWrapped = true
+
+farmmarineluffy.Name = "farmmarineluffy"
+farmmarineluffy.Parent = npcfarmframe
+farmmarineluffy.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+farmmarineluffy.BackgroundTransparency = 0.5
+farmmarineluffy.Position = UDim2.new(0.344978154, 0, 0.698529422, 0)
+farmmarineluffy.Size = UDim2.new(0, 71, 0, 37)
+farmmarineluffy.Font = Enum.Font.SourceSans
+farmmarineluffy.Text = "Luffy, Buso"
+farmmarineluffy.TextColor3 = Color3.new(0.423529, 0.423529, 0.423529)
+farmmarineluffy.TextScaled = true
+farmmarineluffy.TextSize = 14
+farmmarineluffy.TextWrapped = true
+
+farmbuggy.Name = "farmbuggy"
+farmbuggy.Parent = npcfarmframe
+farmbuggy.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+farmbuggy.BackgroundTransparency = 0.5
+farmbuggy.Position = UDim2.new(0.681222677, 0, 0.698529422, 0)
+farmbuggy.Size = UDim2.new(0, 71, 0, 37)
+farmbuggy.Font = Enum.Font.SourceSans
+farmbuggy.Text = "Stop"
+farmbuggy.TextColor3 = Color3.new(0.423529, 0.423529, 0.423529)
+farmbuggy.TextScaled = true
+farmbuggy.TextSize = 14
+farmbuggy.TextWrapped = true
+-- Scriptler:
+
+--YardÄ±m yeri:
+
+help.MouseButton1Click:connect(function()
+	if help2.Visible == false then
+		help2.Visible = true
+	else
+		help2.Visible = false
+	end 
+end)
+
+--Swordfarm off on:
+
+swordfarm.MouseButton1Click:connect(function()
+	if swordfarmframe.Visible == false then
+		swordfarmframe.Visible = true
+	else
+		swordfarmframe.Visible = false		
+	end
+end)
+
+-- SwordFarm Variablelar
+local SwordTextBoxStuff = swordname.Text
+local plr = game:GetService('Players')
+local localplr = plr.LocalPlayer
+local sword = swordname.Text
+
+
+-- SwordFarm Scriptleri:
+
+
+part1on.MouseButton1Click:connect(function()
+    local sword = swordname.Text
+    local SwordTextBoxStuff = swordname.Text
+    _G.sikis = true
+    repeat
+    wait(0,1)
+    game.Players.LocalPlayer.Backpack:WaitForChild(sword).CanBeDropped = true
+    wait()
+    game.Players.LocalPlayer.Backpack:WaitForChild(sword).Parent = game.Players.LocalPlayer.Character
+    wait()
+    game.Players.LocalPlayer.Character:WaitForChild(SwordTextBoxStuff).Parent = workspace
+    game["ReplicatedStorage"]["Player_Event"]:FireServer("Load Weapon", "Slot1")
+    wait(0,8)
+    until _G.sikis == false
+end)
+
+part1off.MouseButton1Click:connect(function()
+    local sword = swordname.Text
+    local SwordTextBoxStuff = swordname.Text
+	_G.sikis = false
+	repeat
+	wait(0,1)
+	game.Players.LocalPlayer.Backpack:WaitForChild(SwordTextBoxStuff).CanBeDropped = true
+	wait()
+	game.Players.LocalPlayer.Backpack:WaitForChild(SwordTextBoxStuff).Parent = game.Players.LocalPlayer.Character
+	wait()
+	game.Players.LocalPlayer.Character:WaitForChild(SwordTextBoxStuff).Parent = workspace
+	game["ReplicatedStorage"]["Player_Event"]:FireServer("Load Weapon", "Slot1")
+	wait(0,8)
+	until _G.sikis == false
+end)
+
+
+part2.MouseButton1Click:connect(function()
+    local sword = swordname.Text
+    local SwordTextBoxStuff = swordname.Text
+	game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+	if key == 'p' then
+	for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+	if v.Name == SwordTextBoxStuff then
+	v.Parent = game.Players.LocalPlayer.Character
+	end
+	end
+	end
+	end)
+end)
+
+part2.MouseButton1Click:connect(function()
+    local sword = swordname.Text
+    local SwordTextBoxStuff = swordname.Text
+	localplr:GetMouse().KeyDown:connect(function(key)
+	if key == "p" then
+	for i,v in pairs (localplr.Backpack:GetChildren()) do
+	if v.Name == SwordTextBoxStuff then
+	v.Parent = localplr.Character
+	end
+	end
+	end
+	end)
+end)
+
+part3.MouseButton1Click:connect(function()
+    local sword = swordname.Text
+    local SwordTextBoxStuff = swordname.Text
+	if _G.SwordTextBoxStuff ~= true or false then
+		_G.SwordTextBoxStuff = true
+		repeat
+			wait()
+			for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+			if v.Name == SwordTextBoxStuff then
+			v:Activate()
+			end
+			end
+			until _G.SwordTextBoxStuff == false
+    else if _G.SwordTextBoxStuff == true then
+        _G.SwordTextBoxStuff = false
+    	if _G.SwordTextBoxStuff == true then
+	        repeat
+				wait()
+	            for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+	            if v.Name == SwordTextBoxStuff then
+	            v:Activate()
+	            end
+	            end
+	            until _G.SwordTextBoxStuff == false    
+		end    
+    end
+	end
+end) 
+
+
+--Chest Teleport:
+
+chesttpoff.MouseButton1Click:connect(function()
+	_G.ON = false
+end)
+
+chesttpon.MouseButton1Click:connect(function()
+	_G.ON = true
+	
+	while _G.ON do
+	wait()
+	for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do 
+	if v.ClassName == "Script" then 
+	for i,c in pairs(v:GetChildren()) do 
+	if c.Name == "" then
+	v:Remove()
+	
+	end
+	end
+	end
+	end
+	char = game.Players.LocalPlayer.Character
+	
+	pos = char.Torso.Position
+	
+	for i, v in pairs(game.Workspace:GetChildren()) do
+	for i, v in pairs(v:GetChildren()) do
+	for i, v in pairs(v:GetChildren()) do
+	if v.ClassName == "UnionOperation" then
+	local t = false
+	local s = false
+	local p = false
+	for i, v in pairs(v:GetChildren()) do
+	if v.ClassName == "TouchTransmitter" then
+	t = true
+	end
+	if v.ClassName == "Script" then
+	s = true
+	end
+	if v.ClassName == "Part" then
+	p = true
+	end
+	if t == true then
+	if s == true then
+	if p == true then
+	char:MoveTo(v.Parent.Position)
+	wait(0.9)
+	char:MoveTo(pos)
+	end
+	end
+	end
+	end
+	end
+	end
+	end
+	end
+	wait(20) 
+	end
+end)
+
+--Anti-Cheat Breaker:
+
+anticheatbreaker.MouseButton1Click:connect(function()
+	for _,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+	    v:IsA("LocalScript") if v.Parent.Name == "" and v.Name == ""  then
+	    v.Disabled = true
+	    end
+	    end
+	wait(0,8)
+	for _,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+	    if v:IsA("RemoteEvent") then 
+	        v:Remove()
+	    end
+	    end
+	game.Players.LocalPlayer.CharacterAdded:connect(function()
+	    wait(1)
+	    for _,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+	    v:IsA("LocalScript") if v.Parent.Name == "" and v.Name == ""  then
+	    v.Disabled = true
+	    end
+	    end
+	wait(0,8)
+	for _,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+	    if v:IsA("RemoteEvent") then 
+	        v:Remove()
+	    end
+	    end
+	end)	
+end)
+
+--Autoclick scripti:
+
+local autoclickitemnick = autoclickitemname.Text
+autoclick.MouseButton1Click:connect(function()
+local autoclickitemnick = autoclickitemname.Text
+	if _G.clickautoclickitemnick ~= true or false then
+		_G.clickautoclickitemnick = true
+		repeat
+			wait()
+			for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+			if v.Name == autoclickitemnick then
+			v:Activate()
+			end
+			end
+			until _G.clickautoclickitemnick == false
+    else if _G.clickautoclickitemnick == true then
+        _G.clickautoclickitemnick = false
+    	if _G.clickautoclickitemnick == true then
+	        repeat
+				wait()
+	            for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+	            if v.Name == autoclickitemnick then
+	            v:Activate()
+	            end
+	            end
+	            until _G.clickautoclickitemnick == false    
+		end    
+    end
+	end
+end) 
+
+-- Teleport scripti:
+
+--Teleport off on:
+teleportgui.MouseButton1Click:connect(function()
+	if teleportguiframe.Visible == false then
+		teleportguiframe.Visible = true
+	else
+		teleportguiframe.Visible = false
+	end 
+end)
+
+-- Teleport kismi
+luffytp.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+	   if string.find(v.ClassName, "Model") and string.find(v.Name, 'That noob') then
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v:FindFirstChild("HumanoidRootPart").CFrame
+	  end
+	end
+end)
+
+buggytp.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+	   if string.find(v.ClassName, "Model") and string.find(v.Name, 'Bob') then
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v:FindFirstChild("HumanoidRootPart").CFrame
+	  end
+	end	
+end)
+
+dfsellertp.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+	   if string.find(v.ClassName, "Model") and string.find(v.Name, 'Devil Fruit Seller') then
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v:FindFirstChild("HumanoidRootPart").CFrame
+	  end
+	end
+end)
+
+marinetp.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+	   if string.find(v.ClassName, "Model") and string.find(v.Name, 'Injured pirate') then
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v:FindFirstChild("HumanoidRootPart").CFrame
+	  end
+	end
+end)
+
+noobtp.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+	   if string.find(v.ClassName, "Model") and string.find(v.Name, 'Gun noob') then
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v:FindFirstChild("HumanoidRootPart").CFrame
+	  end
+	end
+end)
+
+starterisland.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+	   if string.find(v.ClassName, "Model") and string.find(v.Name, 'Big head boy') then
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v:FindFirstChild("HumanoidRootPart").CFrame
+	  end
+	end
+end)
+
+sanjitp.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+	   if string.find(v.ClassName, "Model") and string.find(v.Name, 'BlackLeg') then
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v:FindFirstChild("HumanoidRootPart").CFrame
+	  end
+	end
+end)
+
+--Adama teleport
+playertp.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+	   if string.find(v.ClassName, "Model") and string.find(v.Name, playername.text) then
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v:FindFirstChild("HumanoidRootPart").CFrame
+	  end
+	end
+end)	
+
+--Quest Giver Head TP scripti:
+--Teleport off on:
+questteleport.MouseButton1Click:connect(function()
+	if questgiverframe.Visible == false then
+		questgiverframe.Visible = true
+	else
+		questgiverframe.Visible = false
+	end 
+end)
+
+--asil kismi
+
+marinequest.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+	   if string.find(v.ClassName, "Model") and string.find(v.Name, 'Injured pirate') then
+	       v:FindFirstChild("Head").Anchored = true
+	       v:FindFirstChild("Head").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+	  end
+	end
+end)
+
+swordnoobquest.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+	   if string.find(v.ClassName, "Model") and string.find(v.Name, 'Sword noob') then
+	       v:FindFirstChild("Head").Anchored = true
+	       v:FindFirstChild("Head").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+	  end
+	end
+end)
+
+noobquest.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+	   if string.find(v.ClassName, "Model") and string.find(v.Name, 'Sad noob') then
+	       v:FindFirstChild("Head").Anchored = true
+	       v:FindFirstChild("Head").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+	  end
+	end
+end)
+
+banditquest.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+	   if string.find(v.ClassName, "Model") and string.find(v.Name, 'Big head boy') then
+	       v:FindFirstChild("Head").Anchored = true
+	       v:FindFirstChild("Head").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+	  end
+	end
+end)
+
+luffyquest.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+	   if string.find(v.ClassName, "Model") and string.find(v.Name, 'That noob') then
+	       v:FindFirstChild("Head").Anchored = true
+	       v:FindFirstChild("Head").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+	  end
+	end
+end)
+
+gunnoobquest.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+	   if string.find(v.ClassName, "Model") and string.find(v.Name, 'Gun noob') then
+	       v:FindFirstChild("Head").Anchored = true
+	       v:FindFirstChild("Head").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+	  end
+	end
+end)
+
+buggyquest.MouseButton1Down:connect(function()
+	for _,v in pairs(game.Workspace:GetDescendants()) do
+	   if string.find(v.ClassName, "Model") and string.find(v.Name, 'Bob') then
+	       v:FindFirstChild("Head").Anchored = true
+	       v:FindFirstChild("Head").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+	  end
+	end
+end)
+
+--NPC FARM scriptleri:
+
+--NPC Farm off on:
+npcfarm.MouseButton1Click:connect(function()
+	if npcfarmframe.Visible == false then
+		npcfarmframe.Visible = true
+	else
+		npcfarmframe.Visible = false
+	end 
+end)
+
+--DURDURMA
+farmbuggy.MouseButton1Down:connect(function()
+	_G.whitelist1 = ''
+	_G.whitelist2 = ''
+	_G.whitelist3 = ''
+	_G.whitelist4 = ''
+	_G.whitelist5 = ''
+	_G.WEW = Vector3.new(0,1,0)
+	_G.yes = true
+	local checker = nil
+	local folder = nil
+	function check()
+		local checking = false
+		repeat
+	for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		if v:IsA'Script' then
+			for i,x in pairs(v:GetChildren()) do
+				if x:IsA'LocalScript' and x.Name ~= 'LocalSound' then
+					x.Name = 'youhaveanamenowwow'
+					x.Disabled = true
+					checking = true
+				end
+			end
+		end
+	end
+	wait(.1)
+		    until checking == true
+	end
+	check()
+	game.Players.LocalPlayer.CharacterAdded:connect(function()
+		check()
+	end)
+	for i,v in pairs(workspace:GetChildren()) do
+		if v:IsA'Folder' and (v:FindFirstChild'Luffy(Lvl:1000)' or v:FindFirstChild'Big Full Body Buso Noob(Lvl:500)' or v:FindFirstChild'Marine(Lvl:200)' or v:FindFirstChild'Attacking Noob(Lvl:100)' or v:FindFirstChild'Buggy pirate(Lvl:30)')  then
+			folder = v
+		end
+	end
+	PlayerName = tostring(game.Players.LocalPlayer.Name)
+	game:GetService("RunService").RenderStepped:connect(function()
+	for i,v in pairs(folder:GetChildren()) do
+	if game.Players.LocalPlayer.Character and (v.Name == _G.whitelist1 or v.Name == _G.whitelist2 or v.Name == _G.whitelist3 or v.Name == _G.whitelist4 or v.Name == _G.whitelist5) and v:FindFirstChild'Head' and v:FindFirstChild'Torso' then
+	v.Head.Anchored = true
+	v.Head.CanCollide = false
+	v.Head.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector  * 3.5 + game.Workspace[PlayerName].HumanoidRootPart.Position + _G.WEW
+	v.Torso.Anchored = true
+	v.Torso.CanCollide = false
+	v.Torso.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector  * 3.4 + game.Workspace[PlayerName].HumanoidRootPart.Position + _G.WEW
+	 end
+	end
+	end)
+	while wait() do
+	if _G.yes == true then
+	if _G.WEW == Vector3.new(0,1,0) then
+	_G.WEW = Vector3.new(0,.4,0) else
+	_G.WEW = Vector3.new(0,1,0)
+	end
+	end
+	end
+end)
+
+--farmlar
+farmluffy.MouseButton1Down:connect(function()
+	_G.whitelist1 = 'Luffy(Lvl:1000)'
+	_G.whitelist2 = ''
+	_G.whitelist3 = ''
+	_G.whitelist4 = ''
+	_G.whitelist5 = ''
+	_G.WEW = Vector3.new(0,1,0)
+	_G.yes = true
+	local checker = nil
+	local folder = nil
+	function check()
+		local checking = false
+		repeat
+	for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		if v:IsA'Script' then
+			for i,x in pairs(v:GetChildren()) do
+				if x:IsA'LocalScript' and x.Name ~= 'LocalSound' then
+					x.Name = 'youhaveanamenowwow'
+					x.Disabled = true
+					checking = true
+				end
+			end
+		end
+	end
+	wait(.1)
+		    until checking == true
+	end
+	check()
+	game.Players.LocalPlayer.CharacterAdded:connect(function()
+		check()
+	end)
+	for i,v in pairs(workspace:GetChildren()) do
+		if v:IsA'Folder' and (v:FindFirstChild'Luffy(Lvl:1000)' or v:FindFirstChild'Big Full Body Buso Noob(Lvl:500)' or v:FindFirstChild'Marine(Lvl:200)' or v:FindFirstChild'Attacking Noob(Lvl:100)' or v:FindFirstChild'Buggy pirate(Lvl:30)')  then
+			folder = v
+		end
+	end
+	PlayerName = tostring(game.Players.LocalPlayer.Name)
+	game:GetService("RunService").RenderStepped:connect(function()
+	for i,v in pairs(folder:GetChildren()) do
+	if game.Players.LocalPlayer.Character and (v.Name == _G.whitelist1 or v.Name == _G.whitelist2 or v.Name == _G.whitelist3 or v.Name == _G.whitelist4 or v.Name == _G.whitelist5) and v:FindFirstChild'Head' and v:FindFirstChild'Torso' then
+	v.Head.Anchored = true
+	v.Head.CanCollide = false
+	v.Head.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector  * 3.5 + game.Workspace[PlayerName].HumanoidRootPart.Position + _G.WEW
+	v.Torso.Anchored = true
+	v.Torso.CanCollide = false
+	v.Torso.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector  * 3.4 + game.Workspace[PlayerName].HumanoidRootPart.Position + _G.WEW
+	 end
+	end
+	end)
+	while wait() do
+	if _G.yes == true then
+	if _G.WEW == Vector3.new(0,1,0) then
+	_G.WEW = Vector3.new(0,.4,0) else
+	_G.WEW = Vector3.new(0,1,0)
+	end
+	end
+	end
+end)
+
+farm3pack.MouseButton1Down:connect(function()
+	_G.whitelist1 = 'Luffy(Lvl:1000)'
+	_G.whitelist2 = 'Big Full Body Buso Noob(Lvl:500)'
+	_G.whitelist3 = 'Marine(Lvl:200)'
+	_G.whitelist4 = 'Attacking Noob(Lvl:100)'
+	_G.whitelist5 = ''
+	_G.WEW = Vector3.new(0,1,0)
+	_G.yes = true
+	local checker = nil
+	local folder = nil
+	function check()
+		local checking = false
+		repeat
+	for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		if v:IsA'Script' then
+			for i,x in pairs(v:GetChildren()) do
+				if x:IsA'LocalScript' and x.Name ~= 'LocalSound' then
+					x.Name = 'youhaveanamenowwow'
+					x.Disabled = true
+					checking = true
+				end
+			end
+		end
+	end
+	wait(.1)
+		    until checking == true
+	end
+	check()
+	game.Players.LocalPlayer.CharacterAdded:connect(function()
+		check()
+	end)
+	for i,v in pairs(workspace:GetChildren()) do
+		if v:IsA'Folder' and (v:FindFirstChild'Luffy(Lvl:1000)' or v:FindFirstChild'Big Full Body Buso Noob(Lvl:500)' or v:FindFirstChild'Marine(Lvl:200)' or v:FindFirstChild'Attacking Noob(Lvl:100)' or v:FindFirstChild'Buggy pirate(Lvl:30)')  then
+			folder = v
+		end
+	end
+	PlayerName = tostring(game.Players.LocalPlayer.Name)
+	game:GetService("RunService").RenderStepped:connect(function()
+	for i,v in pairs(folder:GetChildren()) do
+	if game.Players.LocalPlayer.Character and (v.Name == _G.whitelist1 or v.Name == _G.whitelist2 or v.Name == _G.whitelist3 or v.Name == _G.whitelist4 or v.Name == _G.whitelist5) and v:FindFirstChild'Head' and v:FindFirstChild'Torso' then
+	v.Head.Anchored = true
+	v.Head.CanCollide = false
+	v.Head.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector  * 3.5 + game.Workspace[PlayerName].HumanoidRootPart.Position + _G.WEW
+	v.Torso.Anchored = true
+	v.Torso.CanCollide = false
+	v.Torso.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector  * 3.4 + game.Workspace[PlayerName].HumanoidRootPart.Position + _G.WEW
+	 end
+	end
+	end)
+	while wait() do
+	if _G.yes == true then
+	if _G.WEW == Vector3.new(0,1,0) then
+	_G.WEW = Vector3.new(0,.4,0) else
+	_G.WEW = Vector3.new(0,1,0)
+	end
+	end
+	end
+end)
+
+farmmarineluffy.MouseButton1Down:connect(function()
+	_G.whitelist1 = 'Luffy(Lvl:1000)'
+	_G.whitelist2 = 'Big Full Body Buso Noob(Lvl:500)'
+	_G.whitelist3 = ''
+	_G.whitelist4 = ''
+	_G.whitelist5 = ''
+	_G.WEW = Vector3.new(0,1,0)
+	_G.yes = true
+	local checker = nil
+	local folder = nil
+	function check()
+		local checking = false
+		repeat
+	for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		if v:IsA'Script' then
+			for i,x in pairs(v:GetChildren()) do
+				if x:IsA'LocalScript' and x.Name ~= 'LocalSound' then
+					x.Name = 'youhaveanamenowwow'
+					x.Disabled = true
+					checking = true
+				end
+			end
+		end
+	end
+	wait(.1)
+		    until checking == true
+	end
+	check()
+	game.Players.LocalPlayer.CharacterAdded:connect(function()
+		check()
+	end)
+	for i,v in pairs(workspace:GetChildren()) do
+		if v:IsA'Folder' and (v:FindFirstChild'Luffy(Lvl:1000)' or v:FindFirstChild'Big Full Body Buso Noob(Lvl:500)' or v:FindFirstChild'Marine(Lvl:200)' or v:FindFirstChild'Attacking Noob(Lvl:100)' or v:FindFirstChild'Buggy pirate(Lvl:30)')  then
+			folder = v
+		end
+	end
+	PlayerName = tostring(game.Players.LocalPlayer.Name)
+	game:GetService("RunService").RenderStepped:connect(function()
+	for i,v in pairs(folder:GetChildren()) do
+	if game.Players.LocalPlayer.Character and (v.Name == _G.whitelist1 or v.Name == _G.whitelist2 or v.Name == _G.whitelist3 or v.Name == _G.whitelist4 or v.Name == _G.whitelist5) and v:FindFirstChild'Head' and v:FindFirstChild'Torso' then
+	v.Head.Anchored = true
+	v.Head.CanCollide = false
+	v.Head.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector  * 3.5 + game.Workspace[PlayerName].HumanoidRootPart.Position + _G.WEW
+	v.Torso.Anchored = true
+	v.Torso.CanCollide = false
+	v.Torso.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector  * 3.4 + game.Workspace[PlayerName].HumanoidRootPart.Position + _G.WEW
+	 end
+	end
+	end)
+	while wait() do
+	if _G.yes == true then
+	if _G.WEW == Vector3.new(0,1,0) then
+	_G.WEW = Vector3.new(0,.4,0) else
+	_G.WEW = Vector3.new(0,1,0)
+	end
+	end
+	end
+end)
+
+farmmarine.MouseButton1Down:connect(function()
+	_G.whitelist1 = 'Marine(Lvl:200)'
+	_G.whitelist2 = ''
+	_G.whitelist3 = ''
+	_G.whitelist4 = ''
+	_G.whitelist5 = ''
+	_G.WEW = Vector3.new(0,1,0)
+	_G.yes = true
+	local checker = nil
+	local folder = nil
+	function check()
+		local checking = false
+		repeat
+	for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		if v:IsA'Script' then
+			for i,x in pairs(v:GetChildren()) do
+				if x:IsA'LocalScript' and x.Name ~= 'LocalSound' then
+					x.Name = 'youhaveanamenowwow'
+					x.Disabled = true
+					checking = true
+				end
+			end
+		end
+	end
+	wait(.1)
+		    until checking == true
+	end
+	check()
+	game.Players.LocalPlayer.CharacterAdded:connect(function()
+		check()
+	end)
+	for i,v in pairs(workspace:GetChildren()) do
+		if v:IsA'Folder' and (v:FindFirstChild'Luffy(Lvl:1000)' or v:FindFirstChild'Big Full Body Buso Noob(Lvl:500)' or v:FindFirstChild'Marine(Lvl:200)' or v:FindFirstChild'Attacking Noob(Lvl:100)' or v:FindFirstChild'Buggy pirate(Lvl:30)')  then
+			folder = v
+		end
+	end
+	PlayerName = tostring(game.Players.LocalPlayer.Name)
+	game:GetService("RunService").RenderStepped:connect(function()
+	for i,v in pairs(folder:GetChildren()) do
+	if game.Players.LocalPlayer.Character and (v.Name == _G.whitelist1 or v.Name == _G.whitelist2 or v.Name == _G.whitelist3 or v.Name == _G.whitelist4 or v.Name == _G.whitelist5) and v:FindFirstChild'Head' and v:FindFirstChild'Torso' then
+	v.Head.Anchored = true
+	v.Head.CanCollide = false
+	v.Head.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector  * 3.5 + game.Workspace[PlayerName].HumanoidRootPart.Position + _G.WEW
+	v.Torso.Anchored = true
+	v.Torso.CanCollide = false
+	v.Torso.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector  * 3.4 + game.Workspace[PlayerName].HumanoidRootPart.Position + _G.WEW
+	 end
+	end
+	end)
+	while wait() do
+	if _G.yes == true then
+	if _G.WEW == Vector3.new(0,1,0) then
+	_G.WEW = Vector3.new(0,.4,0) else
+	_G.WEW = Vector3.new(0,1,0)
+	end
+	end
+	end
+end)
+
+farmnoob.MouseButton1Down:connect(function()
+	_G.whitelist1 = 'Attacking Noob(Lvl:100)'
+	_G.whitelist2 = ''
+	_G.whitelist3 = ''
+	_G.whitelist4 = ''
+	_G.whitelist5 = ''
+	_G.WEW = Vector3.new(0,1,0)
+	_G.yes = true
+	local checker = nil
+	local folder = nil
+	function check()
+		local checking = false
+		repeat
+	for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		if v:IsA'Script' then
+			for i,x in pairs(v:GetChildren()) do
+				if x:IsA'LocalScript' and x.Name ~= 'LocalSound' then
+					x.Name = 'youhaveanamenowwow'
+					x.Disabled = true
+					checking = true
+				end
+			end
+		end
+	end
+	wait(.1)
+		    until checking == true
+	end
+	check()
+	game.Players.LocalPlayer.CharacterAdded:connect(function()
+		check()
+	end)
+	for i,v in pairs(workspace:GetChildren()) do
+		if v:IsA'Folder' and (v:FindFirstChild'Luffy(Lvl:1000)' or v:FindFirstChild'Big Full Body Buso Noob(Lvl:500)' or v:FindFirstChild'Marine(Lvl:200)' or v:FindFirstChild'Attacking Noob(Lvl:100)' or v:FindFirstChild'Buggy pirate(Lvl:30)')  then
+			folder = v
+		end
+	end
+	PlayerName = tostring(game.Players.LocalPlayer.Name)
+	game:GetService("RunService").RenderStepped:connect(function()
+	for i,v in pairs(folder:GetChildren()) do
+	if game.Players.LocalPlayer.Character and (v.Name == _G.whitelist1 or v.Name == _G.whitelist2 or v.Name == _G.whitelist3 or v.Name == _G.whitelist4 or v.Name == _G.whitelist5) and v:FindFirstChild'Head' and v:FindFirstChild'Torso' then
+	v.Head.Anchored = true
+	v.Head.CanCollide = false
+	v.Head.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector  * 3.5 + game.Workspace[PlayerName].HumanoidRootPart.Position + _G.WEW
+	v.Torso.Anchored = true
+	v.Torso.CanCollide = false
+	v.Torso.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector  * 3.4 + game.Workspace[PlayerName].HumanoidRootPart.Position + _G.WEW
+	 end
+	end
+	end)
+	while wait() do
+	if _G.yes == true then
+	if _G.WEW == Vector3.new(0,1,0) then
+	_G.WEW = Vector3.new(0,.4,0) else
+	_G.WEW = Vector3.new(0,1,0)
+	end
+	end
+	end
+end)
